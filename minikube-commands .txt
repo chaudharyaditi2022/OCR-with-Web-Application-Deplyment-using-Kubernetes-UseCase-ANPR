@@ -1,0 +1,14 @@
+Step 1: minikube start
+
+Step 2: kubectl get deployment
+
+Step 3: kubectl create deployment anpr-webapp --image=aditi99/anpr-webapp --port=80
+
+Step 4: kubectl get deployment
+
+Step 5: kubectl expose deployment anpr-webapp --type=NodePort --port=80
+
+Step 6: kubectl get service
+
+Step 7: minikube service anpr-webapp --url
+
